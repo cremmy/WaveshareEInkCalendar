@@ -38,7 +38,7 @@ class Config:
         self.today_size = (self.size[0]*1//4, self.size[1]*1//3)
         self.today_position = (self.size[0]*3//4, 0)
         self.today_padding = (16, 16, 8, 8)
-        self.today_font = os.path.join(resources_dir, 'DejaVuSans-ExtraLight.ttf')
+        self.today_font = os.path.join(resources_dir, 'DejaVuSans.ttf')
         self.today_date_font_size = 50
         self.today_sunrise_icon = os.path.join(resources_dir, 'sun.png')
         self.today_sunrise_font_size = 24
