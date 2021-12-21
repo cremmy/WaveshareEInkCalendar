@@ -16,7 +16,7 @@ Application for drawing a calendar, that can be displayed on three-color E-Ink d
 - Draws holidays using red,
 - Works on Raspberry Pi Zero.
 
-![Example calendar](resource/sample.png)
+![Example calendar](sample.png)
 
 # TODO list
 - Per-event holiday marker - if event description contains some specific tag, whole day will be treated as holiday,
