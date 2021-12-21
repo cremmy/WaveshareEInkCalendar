@@ -14,9 +14,13 @@ Application for drawing a calendar, that can be displayed on three-color E-Ink d
 - Can be used to draw calendar for any day,
 - Should be easy do personalize, either by modifying config or by extending the code,
 - Draws holidays using red,
-- Works on Raspberry Pi Zero.
+- Works on Raspberry Pi Zero,
+- Draw test - displays calendar in window, for testing purposes.
 
 ![Example calendar](sample.png)
+
+# Setup
+Check [configuration class](calendarframe/CalendarFrameDraw.py#L14) for available options. Set `config.size` to the size of your E-Ink display and define colors supported by it in `config.colors`. If you're only going to display calendar on E-Ink, then only number of colors is important, values can be anything.
 
 # TODO list
 - Per-event holiday marker - if event description contains some specific tag, whole day will be treated as holiday,
